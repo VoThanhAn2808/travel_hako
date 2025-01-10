@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hako Travel</title>
+    <link rel="stylesheet" href="blog1.css" />
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Links -->
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <!-- Google Fonts Links -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Font Awesome Cdn -->
+</head>
+
+<body>
+    <!-- <navbar> -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a href="/asia.html" class="navbar-header"><i class="fas fa-arrow-left"></i></a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <h4>PHNOM PENH – SIEM REAP- CAMBODIA </h4>
+            </div>
+        </div>
+    </nav>
+    <!-- <navbar> -->
+
+    <!-- header -->
+    <div class="header-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px">
+                <div class="col-md-7 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/4.jpg" alt="" />
+                        <div class="card-body">
+                            <!-- <ul class="list-header">
+                <div class="content-header-ul-card">
+                  <h6></h6>
+                </div>
+              </ul> -->
+                            <h3>PHNOM PENH – SIEM REAP- CAMBODIA </h3>
+                            <p>6 Days 5 Nights.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- calculator -->
+                <div class="col-md-5 py-3 py-md-0">
+                    <section id="tour-order" class="tour-order">
+                        <form action="#">
+                            <div class="booking-form">
+                                <div class="section">
+                                    <h4>Pilih Tanggal Tour</h4>
+                                    <label for="dewasa">Tersedia 1 Keberangkatan</label>
+                                    <div class="date-picker">
+                                        <span id="selected-dates">30 Mar 2025 - 6 Apr 2025</span>
+                                        <i class="far fa-calendar" id="calendar-icon" onclick="toggleCalendar()"></i>
+                                    </div>
+                                    <div id="calendar"></div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h4>Jumlah Peserta</h4>
+                                <div class="counter-group">
+                                    <div class="counter">
+                                        <label for="dewasa">Dewasa</label>
+                                        <input type="number" id="dewasa" value="1" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <div class="counter">
+                                        <label for="anak-anak">Anak-anak</label>
+                                        <input type="number" id="anak-anak" value="0" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ./header -->
+    <!-- content -->
+    <div class="content-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-12 py-3 py-md-0">
+                    <div class="header_content-blog">
+                        <h4>Brief itinerary</h4>
+                    </div>
+                    <div class="body">
+                        <div class="content">
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>DAY 01: Phnom Penh Arrival (Dinner)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-1" class="hidden">
+                                Upon arrival at the airport, you will be transferred to your hotel for check-in. In the
+                                afternoon, you will visit the Royal Palace, which is currently the residence of His
+                                Majesty, the King of Cambodia, and the royal families. This palace is like a small town
+                                of royal dynasties. Afterward, you will continue to the Silver Pagoda, which is not only
+                                a functioning temple but also a repository for cultural treasures, including a 90 kg
+                                golden Buddha encrusted with 2086 diamonds. You will spend the night in Phnom Penh.
+                            </p>
+                            <!-- <div id="toggle-footer-1" class="hidden">
+                <i class="fas fa-utensils"></i>
+                <h5>Dinner is included</h5>
+              </div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>DAY 02: Phnom Penh-(Breakfast/Lunch/Dinner)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-2" class="hidden">
+                                After breakfast at the hotel, drive to the Choeng Ek "Killing Fields," located 15 km
+                                south of Phnom Penh, where around 17,000 individuals were detained and transported for
+                                execution between 1975 and 1978. Visit the Independence Monument for photos and explore
+                                the Psa Thmey market. In the afternoon, tour the Tuol Sleng Museum (S-21 prison), a
+                                former school turned Khmer Rouge prison where thousands were held before being sent to
+                                Choeng Ek.
+                                Next, visit the Russian Market, which is famous for affordable clothing, Buddha images,
+                                woodcarvings, silk, and silver jewelry. Continue to Wat Phnom, a historic pagoda built
+                                in 1373 on a man-made hill by Daun Chi Penh. Return to the hotel after dinner or visit
+                                the Naga World Casino. Overnight in Phnom Penh.
+                            </p>
+                            <!-- <div id="toggle-footer-2" class="hidden">
+                <i class="fas fa-utensils"></i>
+                <h5>Breakfast and Lunch are included</h5>
+              </div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>DAY 03: Phnom Penh.– Siem Reap (B/L/D)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                After breakfast at the hotel, transfer to the bus station or airport for your journey to
+                                Siem Reap. Upon arrival, you will be transferred to your hotel for check-in, followed by
+                                lunch at a local Indian restaurant. In the afternoon, visit the Floating Village and
+                                enjoy a ride on a traditional wooden boat on Tonle Sap Lake, experiencing the unique way
+                                of life with floating villages, stilted houses, fish traps, and a deep connection to the
+                                lake’s ecology. If time allows, visit Artisan D’Angkor, a center for wood and stone
+                                carving. Spend the night in Siem Reap.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+                <i class="fas fa-utensils"></i>
+                <h5>Breakfast is included</h5>
+              </div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>DAY 04: Siem Reap (B/L/D)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Start your day with a visit to the South Gate of Angkor Thom, exploring Bayon Temple,
+                                The Royal Enclosure, Phimeanaka, and the Elephant and Leper King Terraces. Then, head to
+                                Ta Prohm, also known as the jungle temple. After lunch, visit Thommanan, Chaosay Tevoda,
+                                and the charming Ta Keo Temple, built around the same time as Angkor Wat.
+                                Next, explore Angkor Wat, one of the "7 Wonders of the World" and a UNESCO World
+                                Heritage Site. Admire its splendor and the world’s longest bas-relief, depicting stories
+                                from Hindu mythology. End your day at Bakheng Hill for a stunning sunset view from the
+                                temple mountain. Spend the night in Siem Reap.
+                                Special note: The Bakan Tower at Angkor Wat is closed for four days each month for
+                                religious observances. Visitors should dress modestly (covering shoulders and knees) and
+                                wait in line for their turn to climb, as children under twelve are not allowed for
+                                safety reasons.
+                            </p>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5> DAY 05: Siem Reap - Kulen National Park (B/L/D)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                After breakfast, head to Kulen National Park on Kulen Mountain, the 9th-century capital
+                                of the Khmer Empire. Visit ancient temples, the River of 1,000 Lingas, a reclining
+                                Buddha, and a waterfall where you can cleanse with holy water. Return to town for a late
+                                lunch.
+                                In the afternoon, visit a silk farm in Pouk district, 15 km from Siem Reap, to see the
+                                silk production process. There’s also a shop for silk and souvenirs. On the way back,
+                                stop at the Western Baray, a large reservoir once used for irrigation.
+                                Overnight in Siem Reap.
+                            </p>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5> DAY 06: Siem Reap - Departure (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Enjoy a complimentary and relaxed breakfast at the hotel before being transferred to the
+                                airport for your departure flight. Thank you for choosing our tour! We’re glad to have
+                                served you and hope you had a fantastic experience. See you soon!
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./content -->
+    <!-- price -->
+    <section id="tour-price" class="tour-price">
+        <div class="container">
+            <div class="row">
+                <div class="header-price">
+                    <h2>Tour Price:</h2>
+                </div>
+                <div class="content-price">
+                    <h2><strong class="price-red">$0(contact us)</strong></h2>
+                    <h4 class="discount"></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./price -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <h1><span>H</span>ako</h1>
+        <!-- <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga.
+      </p> -->
+        <div class="social-links">
+            <i class="fas fa-envelope"></i>
+            <a href="https://www.facebook.com/profile.php?id=61567894030496"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/hakotravel_tour_indovietnam/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/message/PBHWANIJI5C2I1"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@wisatavietnam_hakotravel?_t=8qyPLI8N96q&_r=1"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="../calendar.js"></script>
+</body>
+
+</html>

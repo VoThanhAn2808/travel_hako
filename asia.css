@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #41778a;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+/* navbar */
+#navbar {
+    background-image: url('images/asiabg.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 180px; 
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start !important;
+    gap: 10px; 
+}
+
+.navbar-header {
+    color: #f9f9f9;
+    font-size: 40px;
+}
+
+.navbar-collapse h1{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Packages Start */
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  
+  .main-txt h1 span {
+    color: #41778a;
+  }
+  
+  .packages .card {
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  .packages .card img {
+    border-radius: 5px;
+    width: 635px;
+    height: 380px;
+    cursor: pointer;
+  }
+  
+  .packages .card .card-body {
+    background: transparent;
+  }
+  
+  .packages .card .card-body h3 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  
+  .packages .card .card-body p {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .star i {
+    font-size: 15px;
+  }
+  
+  .checked {
+    color: #41778a;
+  }
+  
+  .packages .card .card-body h6 {
+    font-size: 20px;
+  }
+  
+  .packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background: #41778a;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .card-body .price .price-red {
+    color: red;
+  }
+  
+  .card-body .price .discount {
+    color: black;
+    font-size: 1rem;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-bottom: 20px;
+  }
+  
+  .packages .btn-tour {
+    padding-top: 15px;
+  }
+  
+  .packages .btn-tour .btn-content {
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin: 0 5px;
+  }
+  
+  button.btn-content {
+    font-size: 17px;
+    font-weight: 500;
+    color: #41778a;
+    border: 1px solid rgba(190, 186, 186, 0.052);
+    position: relative;
+  }
+  
+  button.btn-content:hover {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: transparent;
+    background: linear-gradient(to right, #7b0fd9, #bc2eb1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    border: none;
+  }
+  
+  button.btn-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 8px;
+    z-index: -1;
+  }
+  
+  button.btn-content:hover::before {
+    background-color: rgba(65, 119, 138, 0.5);
+  }
+  
+  .card.text-center-box {
+    /* margin-top: 30%; */
+    display: flex;
+    background-color:#65c6e9;
+  }
+  
+  .card.text-center-box a {
+    text-decoration: none;
+  }
+  
+  .card .text-center-see {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card .text-center-see i {
+    margin-left: 10px;
+  }
+  
+  .hidden-tours {
+    display: none;
+  }
+  
+  /* Packages End */
+
+  /* Footer Start */
+#footer {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#footer h1 {
+  font-weight: 600;
+  padding-top: 30px;
+  text-shadow: 0px 0px 1px black;
+}
+
+#footer h1 span {
+  color: #41778a;
+}
+
+.social-links i {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.social-links i:hover {
+  background: #41778a;
+}
+
+/* Footer End */

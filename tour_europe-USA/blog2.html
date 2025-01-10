@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hako Travel</title>
+    <link rel="stylesheet" href="blog.css" />
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Links -->
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <!-- Google Fonts Links -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Font Awesome Cdn -->
+</head>
+
+<body>
+    <!-- <navbar> -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a href="/europe.html" class="navbar-header"><i class="fas fa-arrow-left"></i></a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <h4>WEST EUROPE + ISELTWALD & DOLOMITES | 8 COUNTRIES </h4>
+            </div>
+        </div>
+    </nav>
+    <!-- <navbar> -->
+
+    <!-- header -->
+    <div class="header-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px">
+                <div class="col-md-7 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/2.jpeg" alt="" />
+                        <div class="card-body">
+                            <!-- <ul class="list-header">
+                <div class="content-header-ul-card">
+                  <h6></h6>
+                </div>
+              </ul> -->
+                            <h3>WEST EUROPE + ISELTWALD & DOLOMITES | 8 COUNTRIES</h3>
+                            <p>13 Days 12 Nights.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- calculator -->
+                <div class="col-md-5 py-3 py-md-0">
+                    <section id="tour-order" class="tour-order">
+                        <form action="#">
+                            <div class="booking-form">
+                                <div class="section">
+                                    <h4>Pilih Tanggal Tour</h4>
+                                    <label for="dewasa">Tersedia 1 Keberangkatan</label>
+                                    <div class="date-picker">
+                                        <span id="selected-dates">30 Mar 2025 - 6 Apr 2025</span>
+                                        <i class="far fa-calendar" id="calendar-icon" onclick="toggleCalendar()"></i>
+                                    </div>
+                                    <div id="calendar"></div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h4>Jumlah Peserta</h4>
+                                <div class="counter-group">
+                                    <div class="counter">
+                                        <label for="dewasa">Dewasa</label>
+                                        <input type="number" id="dewasa" value="1" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <div class="counter">
+                                        <label for="anak-anak">Anak-anak</label>
+                                        <input type="number" id="anak-anak" value="0" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ./header -->
+    <!-- content -->
+    <div class="content-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-12 py-3 py-md-0">
+                    <div class="header_content-blog">
+                        <h4>Brief itinerary</h4>
+                    </div>
+                    <div class="body">
+                        <div class="content">
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 01: Jakarta – Hong Kong</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-1" class="hidden">
+                                Gather at Soekarno-Hatta International Airport to begin your European adventure, with
+                                your first destination being Paris, France.
+                            </p>
+                            <!-- <div id="toggle-footer-1" class="hidden">
+                <i class="fas fa-utensils"></i>
+                <h5>Dinner is included</h5>
+              </div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 02: Hong Kong – Paris (Lunch)
+                                        </h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-2" class="hidden">
+                                Upon arrival at Paris Airport, embark on an exciting city tour showcasing some of the
+                                most iconic landmarks of Paris. Stroll along the famous Champs-Élysées Avenue and visit
+                                Place de la Concorde Square. Admire the historic Les Invalides, the stunning Petite
+                                Palais and Grand Palais, and the elegant Pont Alexandre III. Explore the architectural
+                                beauty of St. Magdalena and take memorable photos at the Arc de Triomphe and the Eiffel
+                                Tower. Conclude your day with a delightful Seine River Cruise, offering breathtaking
+                                views of Paris from a unique perspective.
+                            </p>
+                            <!-- <div id="toggle-footer-2" class="hidden">
+                <i class="fas fa-utensils"></i>
+                <h5>Breakfast and Lunch are included</h5>
+              </div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 03: Paris – Brussels – Amsterdam (Breakfast, Dinner)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Travel to Brussels, Belgium, to explore the charming city highlights, including the
+                                iconic Manneken Pis statue and the historic Old Town. Afterward, continue your journey
+                                to Amsterdam, where you will enjoy an overnight stay.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+                <i class="fas fa-utensils"></i>
+                <h5>Breakfast is included</h5>
+              </div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 04: Amsterdam – Zaanse Schans – Volendam – Amsterdam (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Explore Zaanse Schans, a picturesque area known for its iconic windmills, cheese-making
+                                demonstrations, and traditional wooden shoe crafting. Next, visit the charming fishing
+                                village of Volendam, where you can capture memorable photos in traditional Dutch attire.
+                                Conclude the day with a relaxing canal tour in Amsterdam, offering unique views of the
+                                city’s historic waterways and architecture.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 05: Amsterdam – Cologne – Frankfurt (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Visit Cologne to marvel at the magnificent Cologne Cathedral, a stunning example of
+                                Gothic architecture and once the tallest building in the world (1880). After exploring
+                                this historic landmark, proceed to Frankfurt for an overnight stay.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 06: Frankfurt – Titisee – Schaffhausen – Zurich (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Journey to Titisee, nestled in Germany’s Black Forest, renowned for its breathtaking
+                                natural beauty. Continue to Rhine Falls in Schaffhausen, Europe’s largest and most
+                                spectacular waterfall. Conclude the day with an overnight stay in Zurich, Switzerland.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 07: Zurich – Mt. Titlis – Lucerne – Zurich (Breakfast)
+                                        </h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Begin the day with a thrilling cable car ride to the snowy peaks of Mt. Titlis, standing
+                                at 3,020 meters above sea level. Later, head to Lucerne to explore its iconic sights,
+                                including the Lion Monument, Old Town, and Chapel Bridge. Take time to shop for renowned
+                                Swiss watches before returning to Zurich for the night.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 08: Zurich – Iseltwald – Interlaken – Zurich (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Discover the charm of Iseltwald, a quaint village by Lake Brienz, famous as a filming
+                                location for *Crash Landing on You.* Continue to Interlaken, renowned for its
+                                breathtaking Alpine scenery and serene atmosphere.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 09: Zurich – Vaduz – Innsbruck (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Travel to Vaduz, the capital of Liechtenstein, where you can visit the Vaduz Cathedral
+                                and the Kunstmuseum. Continue to Innsbruck, Austria, for an overnight stay.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 10: Innsbruck – Lago Braies – Lago Misurina – Bolzano Area (Breakfast,
+                                            Dinner)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Head to Italy’s Dolomites region and visit the stunning Lago Braies, a beautiful alpine
+                                lake surrounded by dramatic mountain scenery. Continue to Tre Cime Lavaredo, one of the
+                                most iconic landmarks of the Dolomites. Then, explore the picturesque Lago Misurina and
+                                the charming town of Cortina d’Ampezzo, known for its pedestrian streets and boutique
+                                shops.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 11: Bolzano Area – Mt. Seceda – Malpensa (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Visit Mt. Seceda, one of the Dolomites' most stunning peaks, standing at 2,519 meters.
+                                After taking in the breathtaking views, continue your journey to Malpensa for an
+                                overnight stay.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 12: Malpensa – Hong Kong (Breakfast)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                After breakfast, transfer to the airport for your flight back home.
+                            </p>
+                            <!-- <div id="toggle-footer-3" class="hidden">
+<i class="fas fa-utensils"></i>
+<h5>Breakfast is included</h5>
+</div> -->
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 13: Hong Kong – Jakarta</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Arrive in Jakarta, bringing home beautiful memories. Thank you for your participation,
+                                and we look forward to seeing you in our future tour programs.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./content -->
+    <!-- price -->
+    <section id="tour-price" class="tour-price">
+        <div class="container">
+            <div class="row">
+                <div class="header-price">
+                    <h2>Tour Price:</h2>
+                </div>
+                <div class="content-price">
+                    <h2><strong class="price-red">$0 (Contact us)</strong></h2>
+                    <!-- <h4 class="discount">$323/pax</h4> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./price -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <h1><span>H</span>ako</h1>
+        <!-- <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga.
+      </p> -->
+        <div class="social-links">
+            <i class="fas fa-envelope"></i>
+            <a href="https://www.facebook.com/profile.php?id=61567894030496"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/hakotravel_tour_indovietnam/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/message/PBHWANIJI5C2I1"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@wisatavietnam_hakotravel?_t=8qyPLI8N96q&_r=1"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="../calendar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hako Travel</title>
+    <link rel="stylesheet" href="blog1.css" />
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Links -->
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <!-- Google Fonts Links -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Font Awesome Cdn -->
+</head>
+
+<body>
+    <!-- <navbar> -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-header"><i class="fas fa-arrow-left"></i></a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <h4>Hoa Lu – Tam Coc- Ninh Binh- Ha Noi</h4>
+            </div>
+        </div>
+    </nav>
+    <!-- <navbar> -->
+
+    <!-- header -->
+    <div class="header-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px">
+                <div class="col-md-7 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/8.jpg" alt="" />
+                        <div class="card-body">
+                            <ul class="list-header">
+                                <div class="content-header-ul-card">
+                                    <h6>Super Sale</h6>
+                                </div>
+                            </ul>
+                            <h3>Super Sale Hoa Lu – Tam Coc- Ninh Binh- Ha Noi</h3>
+                            <p>3 Days 2 Nights.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- calculator -->
+                <div class="col-md-5 py-3 py-md-0">
+                    <section id="tour-order" class="tour-order">
+                        <form action="#">
+                            <div class="booking-form">
+                                <div class="section">
+                                    <h4>Pilih Tanggal Tour</h4>
+                                    <label for="dewasa">Tersedia 1 Keberangkatan</label>
+                                    <div class="date-picker">
+                                        <span id="selected-dates">30 Mar 2025 - 6 Apr 2025</span>
+                                        <i class="far fa-calendar" id="calendar-icon" onclick="toggleCalendar()"></i>
+                                    </div>
+                                    <div id="calendar"></div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h4>Jumlah Peserta</h4>
+                                <div class="counter-group">
+                                    <div class="counter">
+                                        <label for="dewasa">Dewasa</label>
+                                        <input type="number" id="dewasa" value="1" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <div class="counter">
+                                        <label for="anak-anak">Anak-anak</label>
+                                        <input type="number" id="anak-anak" value="0" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ./header -->
+    <!-- content -->
+    <div class="content-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-12 py-3 py-md-0">
+                    <div class="header_content-blog">
+                        <h4>Brief itinerary</h4>
+                    </div>
+                    <div class="body">
+                        <div class="content">
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 01: HANOI ARRIVAL-CITY TOUR-SIC TOUR</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-1" class="hidden">
+                                Arriving at Noi Bai International Airport, you'll be welcomed and transferred to the
+                                city to drop off your luggage at the hotel before starting your Hanoi city tour.
+                                Visit the Ho Chi Minh Complex, including Ho Chi Minh's embalmed body and the One Pillar
+                                Pagoda. Explore the Vietnam Ethnology Museum (or the Vietnamese Women’s Museum if it's a
+                                Monday), enjoy lunch, and then visit Tran Quoc Pagoda, the Temple of Literature, and Hoa
+                                Lo Prison, a war history museum. Return to the hotel to conclude your tour.
+                            </p>
+                            <div id="toggle-footer-1" class="hidden">
+                                <i class="fas fa-utensils"></i>
+                                <h5>Breakfast and lunch are included</h5>
+                            </div>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 02 : HANOI-HOALU-TAMCOC-HANOI-SIC TOUR</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-2" class="hidden">
+                                After breakfast, you’ll be taken to Ninh Binh to explore Hoa Lu, the ancient capital of
+                                Vietnam during the Dinh and Le dynasties. Enjoy scenic rice fields and limestone
+                                outcrops before a 90-minute sampan cruise through Tam Coc, a UNESCO site.
+                                Visit the ruins of Hoa Lu and, after lunch, take a traditional sampan ride through rice
+                                paddies and the famous grottoes: Hang Ca, Hang Giua, and Hang Cuoi. Return to Hanoi in
+                                the late afternoon for an overnight stay.
+                            </p>
+                            <div id="toggle-footer-2" class="hidden">
+                                <i class="fas fa-utensils"></i>
+                                <h5>Breakfast and Lunch are included</h5>
+                            </div>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 03 : HANOI DEPARTURE</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Enjoy breakfast at the hotel. After breakfast, enjoy some free time before we take you
+                                to the airport for your return flight. Thank you for choosing our tour! We’re glad to
+                                have served you and hope you had a fantastic experience. See you soon!
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./content -->
+    <!-- price -->
+    <section id="tour-price" class="tour-price">
+        <div class="container">
+            <div class="row">
+                <div class="header-price">
+                    <h2>Tour Price:</h2>
+                </div>
+                <div class="content-price">
+                    <h2><strong class="price-red">$265/pax</strong></h2>
+                    <h4 class="discount">$325/pax</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./price -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <h1><span>H</span>ako</h1>
+        <!-- <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga.
+      </p> -->
+        <div class="social-links">
+            <i class="fas fa-envelope"></i>
+            <a href="https://www.facebook.com/profile.php?id=61567894030496"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/hakotravel_tour_indovietnam/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/message/PBHWANIJI5C2I1"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@wisatavietnam_hakotravel?_t=8qyPLI8N96q&_r=1"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="calendar.js"></script>
+</body>
+
+</html>

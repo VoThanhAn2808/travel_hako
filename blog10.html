@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hako Travel</title>
+    <link rel="stylesheet" href="blog.css" />
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Links -->
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <!-- Google Fonts Links -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Font Awesome Cdn -->
+</head>
+
+<body>
+    <!-- <navbar> -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-header"><i class="fas fa-arrow-left"></i></a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <h4>PHU QUOC- GRAND WORLD- VIN WONDER- VIN SAFARI- SUN WORLD </h4>
+            </div>
+        </div>
+    </nav>
+    <!-- <navbar> -->
+
+    <!-- header -->
+    <div class="header-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px">
+                <div class="col-md-7 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/11.jpg" alt="" />
+                        <div class="card-body">
+                            <ul class="list-header">
+                                <div class="content-header-ul-card">
+                                    <h6>Favorite</h6>
+                                </div>
+                            </ul>
+                            <h3>Favorite PHU QUOC- GRAND WORLD- VIN WONDER- VIN SAFARI- SUN WORLD </h3>
+                            <p>5 Days 4 Nights.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- calculator -->
+                <div class="col-md-5 py-3 py-md-0">
+                    <section id="tour-order" class="tour-order">
+                        <form action="#">
+                            <div class="booking-form">
+                                <div class="section">
+                                    <h4>Pilih Tanggal Tour</h4>
+                                    <label for="dewasa">Tersedia 1 Keberangkatan</label>
+                                    <div class="date-picker">
+                                        <span id="selected-dates">30 Mar 2025 - 6 Apr 2025</span>
+                                        <i class="far fa-calendar" id="calendar-icon" onclick="toggleCalendar()"></i>
+                                    </div>
+                                    <div id="calendar"></div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h4>Jumlah Peserta</h4>
+                                <div class="counter-group">
+                                    <div class="counter">
+                                        <label for="dewasa">Dewasa</label>
+                                        <input type="number" id="dewasa" value="1" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <div class="counter">
+                                        <label for="anak-anak">Anak-anak</label>
+                                        <input type="number" id="anak-anak" value="0" min="0">
+                                        <span class="icon"><i class="fa fa-user"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ./header -->
+    <!-- content -->
+    <div class="content-blog">
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-12 py-3 py-md-0">
+                    <div class="header_content-blog">
+                        <h4>Brief itinerary</h4>
+                    </div>
+                    <div class="body">
+                        <div class="content">
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 1: Phu Quoc Arrival ( Lunch/ Dinner ) </h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-1" class="hidden">
+                                Our guide and driver will warmly welcome you at Phu Quoc Island Airport, then head to a
+                                local restaurant for a delicious lunch. Afterward, visit Dinh Cau Shrine to admire its
+                                beautiful blend of Vietnamese and Chinese architecture. Next, head to Sunset Sanato
+                                Beach Club, one of the island's most breathtaking spots, where you can enjoy the
+                                stunning sunset and take memorable photos. After the sunset, we'll transfer you to your
+                                hotel for check-in and rest. At 7:00 PM, enjoy a scrumptious dinner at a local
+                                restaurant, followed by a visit to the lively Phu Quoc Night Market. Overnight in Phu
+                                Quoc.
+                            </p>
+
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5>Day 2: Phu Quoc East & South Island Tour – Grand World Phu Quoc (Breakfast,
+                                            Lunch, Dinner)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-2" class="hidden">
+                                After breakfast at 8:00 AM, we will explore Phu Quoc’s top attractions, starting with
+                                the Pearl Farm, where you’ll learn about pearl cultivation, and the Prison Museum,
+                                offering insights into the island’s history. Next, visit a Fish Sauce Factory to
+                                discover Phu Quoc's famous fish sauce, followed by the peaceful Ho Quoc Pagoda. Relax at
+                                Sao Beach and explore the charming Ham Ninh Village. After a delicious lunch, rest at
+                                the hotel before heading to Grand World Phu Quoc for exciting entertainment. In the
+                                evening, enjoy a delightful dinner before returning to the hotel for the night.
+                            </p>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5> Day 3: Vinpearl Safari – VinWonders Phu Quoc (Breakfast, Lunch, Dinner)
+                                        </h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                After breakfast at 8:00 AM, you will visit Vinpearl Safari, where you will ride through
+                                the wildlife park in a bus, experiencing the excitement of being surrounded by roaming
+                                animals and passing through a vast, diverse jungle. You will also enjoy the Animal Show
+                                (10:00 - 10:30), showcasing talented birds and promoting environmental conservation,
+                                with the chance to feed the animals.
+                                At 12:00 PM, you will have lunch at a local restaurant. Afterward, you will visit
+                                VinWonders Phu Quoc to enjoy various games and the aquarium. At 6:00 PM, you will have
+                                dinner at a local restaurant. Overnight in Phu Quoc.
+                            </p>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5> Day 4: Speed Boat to 4 island Tour – Cable car to Thom Island (Breakfast /
+                                            Lunch / Dinner)</h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                After breakfast at 8:00 AM, we will travel to the southern pier of Phu Quoc Island and
+                                board a speedboat for our four-island tour. We will visit Mong Tay Island, Gam Ghi
+                                Island, and May Rut Island to swim, relax on the beaches, and explore the coral reefs.
+                                Before 12:00 PM, we will head to Hon Thom Island for a buffet lunch and enjoy the beach
+                                and water park. Finally, we will take the Hon Thom Cable Car back to the main island,
+                                enjoying stunning views. Dinner at a local restaurant will conclude the day before
+                                returning to the hotel.
+                            </p>
+                            <span class="span_width-line"></span>
+
+                            <ul class="content-body">
+                                <li class="toggle-item">
+                                    <div class="item-content">
+                                        <span class="span-line"></span>
+                                        <h5> Day 5: Phu Quoc Departure ( Breakfast ) </h5>
+                                    </div>
+                                    <i class="fas fa-chevron-down toggle-icon"></i>
+                                </li>
+                            </ul>
+                            <p id="toggle-paragraph-3" class="hidden">
+                                Have breakfast at the hotel and check out before 12.00 PM. Free and easy at your leisure
+                                until transfer to the airport for your departing flight home sweet home. End of our
+                                services. Thank you for choosing our tour! We’re glad to have served you and hope you
+                                had a fantastic experience. See you soon!
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./content -->
+    <!-- price -->
+    <section id="tour-price" class="tour-price">
+        <div class="container">
+            <div class="row">
+                <div class="header-price">
+                    <h2>Tour Price:</h2>
+                </div>
+                <div class="content-price">
+                    <h2><strong class="price-red">$323/pax</strong></h2>
+                    <h4 class="discount">$400/pax</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./price -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <h1><span>H</span>ako</h1>
+        <!-- <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga.
+      </p> -->
+        <div class="social-links">
+            <i class="fas fa-envelope"></i>
+            <a href="https://www.facebook.com/profile.php?id=61567894030496"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/hakotravel_tour_indovietnam/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/message/PBHWANIJI5C2I1"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@wisatavietnam_hakotravel?_t=8qyPLI8N96q&_r=1"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="calendar.js"></script>
+</body>
+
+</html>
